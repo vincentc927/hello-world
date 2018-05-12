@@ -1,0 +1,58 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+h1 {
+  font-family: Poppins;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 3.7px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+h3 {
+  font-family: Poppins;
+  color: white;
+  font-size: 40px;
+  background-color: black;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  padding: 10px 10px;
+}
+
+body {
+  background-color: blue;
+}
+
+head {
+
+}
+
+.image {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.image2 {
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.image3 {
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
